@@ -20,7 +20,6 @@ export const AddItemButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
 
   &:hover {
     background: ${lighten(0.1, darkTheme.gray)};
