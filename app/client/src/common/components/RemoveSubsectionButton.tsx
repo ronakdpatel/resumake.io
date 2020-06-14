@@ -18,10 +18,11 @@ export const RemoveSubsectionButton = styled.button`
   outline: none;
   border: 0;
   background: #111314;
-  color: white;
+  color: ${darkTheme.primary};
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.75);
 
   &:hover {
     background: ${darkTheme.primary};
-    color: white;
+    color: #111314;
   }
 `
